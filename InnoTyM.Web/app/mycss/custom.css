@@ -1,0 +1,102 @@
+.no-padding{
+	padding: 0px;
+}
+.no-margin{
+	margin: 0px;
+}
+
+p.pInno{
+
+	font-family: fontopoFONTOPO;font-size: 34pt;letter-spacing:0.0001px;padding-left: 50px;
+}
+
+
+p.pInnobig{
+
+font-family: fontopoFONTOPO;font-size: 54pt;letter-spacing:0.0001px;
+
+}
+i.f16{
+
+	font-size: 16px;
+}
+
+}.navbar{
+
+	min-height: 80px;
+}
+.navbar-brand{
+padding: 0 15px;
+height: 80px;
+line-height: 80px;
+
+
+}
+.navbar-toggle{
+	margin-top: 23px;
+	padding: 9px 10px ;
+
+
+}
+.navbar-nav > li > a{
+	padding-top: 26.5px;
+	padding-bottom: 26.5px;
+	line-height: 27px;
+}
+
+img.walletsize{
+
+	height: 500px;
+	width: 500px;
+}button.getstarted{
+
+	width: 75%;
+
+}.site-footer{
+
+	background-color: #00009a;
+	color: white;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+
+
+
+
+
+.footer-nav{
+	text-align:left;
+	color: white;
+	
+	padding-left: 0px;
+}
+.footer-nav li{
+	display: inline;
+	padding: 5px;
+	color: white;
+	text-decoration: bold;
+}
+.footer-nav a{
+color: white;
+font-weight: bold;
+font-size: 10pt;
+text-decoration:unset;
+}
+.font-aw li{
+
+	padding-right: 20px;
+}
+
+
+.loginsec{
+
+	width: 100%;
+}
+table,th,td{
+    border:1px solid black;
+
+}
+.btn-dash{
+    background-color:red !important;
+}

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html >
+<html ng-app="myApp">
+<head>
+  
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+     <link href="Content/font-awesome.min.css" rel="stylesheet" />
+     <link href="app/mycss/custom.css" rel="stylesheet" />
+    
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div ng-include="'app/header/headerinno.html'"></div>
+   <div ng-view=""></div>
+    <div ng-include="'app/Footer/footerInno.html'"></div>
+
+
+    <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.7.1/angular-local-storage.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/header/headerController.js"></script>
+    <script src="app/Footer/FooterController.js"></script>
+    <script src="app/Home/HomeController.js"></script>
+    <script src="app/Add Money/AddMoneyController.js"></script>
+    <script src="app/view/LoginPageController.js"></script>
+    <script src="app/view/RegisterPageController.js"></script>
+
+    <script src="app/Transaction/TransactionController.js"></script>
+    <script src="app/Dashboard/DashboardController.js"></script>
+    <script src="app/Home/HomeService.js"></script>
+   
+</body>
+</html>

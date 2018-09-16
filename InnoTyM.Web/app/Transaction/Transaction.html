@@ -1,0 +1,42 @@
+﻿
+
+    <div class="container-fluid" style="background-image: url('app/Images/bluefinal.png'); background-size: 100%;">
+        <div class="row" style="padding-left: 300px;padding-bottom: 120px;padding-top:100px;">
+            <div class="col-md-6 col-md-push-1">
+                <h1 style="text-align:center;">Transaction</h1>
+                <div class="panel"style="height:190px;background-image: url('app/Images/bluefinal.png');border: 1px solid blue;">
+                    <div class="panel-body form-horizontal">
+
+                        <!--<div class="form-group ">
+                            <label for="From" class="col-sm-3 control-label">sender</label>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Enter Sender Name" class="form-control" id="From" name="From" ng-model="Userdata.Email">
+                            </div>
+                        </div>-->
+
+                        <div class="form-group ">
+                            <label for="Receiver Email" class="col-sm-3 control-label">Receiver</label>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Enter Receiver Email" class="form-control" name="Email" ng-model="Transaction.Email">
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="Amount" class="col-sm-3 control-label">Amount</label>
+                            <div class="col-sm-9">
+                                <input type="number" placeholder="Enter Amount" class="form-control" name="Amount" ng-model="Transaction.AmountTransferred">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-3 col-md-offset-8"style="text-align:right;">
+                            <button type="button" class="btn btn-success" ng-click="sendM()">SEND MONEY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

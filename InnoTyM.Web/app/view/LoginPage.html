@@ -1,0 +1,75 @@
+﻿
+    <div class="container-fluid" style="background-image:url(app/Images/bluefinal.png);background-size: 100%;padding-top: 60px;" ng-submit="loginfun()">
+   
+    <div class="border-solid col-md-offset-2 col-md-8">
+
+        <div class="col-md-6" style="border-right: 1px solid gray">
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="pInnobig">
+                <font style="color:#00009a;">&nbsp;&nbsp;&nbsp;&nbsp;Inno</font><font style="color: #2492ff">tm</font>
+            </p>
+
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+
+
+
+        <div class="col-md-6" style="padding-top: 30px;padding-right: 10px;">
+
+            <p style="font-variant:Open Sans;font-size: 18pt;color:#00009a;text-decoration: underline;text-decoration-color: #2492ff;
+				text-underline-position:under;font-weight: bold;padding-left: 12px;">Sign In to Innotm</p>
+
+            <form>
+                <div class="container-fluid" style="padding-top: 50px">
+                    <div class="form-group">
+
+                        <input placeholder="Registered Innotm Mobile Number or Email ID" type="text" name="Mobile Number" class="form-control"
+                               style="font-variant:Calibri (Body);" ng-model="login.Email">
+                    </div>
+                    <div class="form-group" style="padding-top: 20px;">
+
+                        <input placeholder="Innotm Password" class="form-control" type="Password" name="psw" class="form-control" style="font-variant: Calibri (Body);" ng-model="login.Password">
+                    </div>
+
+                </div>
+            </form>
+            <div style="padding-top: 20px;">
+                <a style="color: #2492ff;font-weight: bold;float: right;padding-left: 10px;">Other Login Issues</a>
+
+                <a style="color: #2492ff;font-weight: bold;float: right;">Forgot Password? &nbsp;&nbsp; </a>
+
+            </div>
+
+            <div class="col-lg-12" style="padding-top:30px;">
+                <button class="btn-lg btn-info loginsec" ng-click="loginfun()"><i class="fa fa-lock" aria-hidden="true"></i>  Login Securely</button>
+
+            </div>
+            <div class="col-md-12 " style="padding-top: 30px;">
+                <p>By logging in, you agree to our<a> Terms & Conditions</a> & <a>Privacy Policy</a>.</p>
+
+            </div>
+            <div class="col-md-12">
+                <p>Dont have an account?<a href=""data-ng-click="showRegisterPage()">SignUp Here</a></p>
+
+            </div>
+
+        </div>
+    </div>
+
+        
+</div>
